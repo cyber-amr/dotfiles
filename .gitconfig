@@ -1,12 +1,12 @@
 [user]
-	name = Spirit
-	email = spirit@programmer.net
+	name = Amr
+	email = amr@programmer.net
 [init]
 	defaultBranch = main
 [pull]
 	rebase = false
 [github]
-	user = spirit-x64
+	user = cyber-amr
 [credential]
 	helper = store
 # This is not safe to be in a public server do not do this
