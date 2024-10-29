@@ -1,6 +1,6 @@
 [user]
-	name = Spirit
-	email = spirit@programmer.net
+	name = Amr
+	email = amr@programmer.net
 [init]
 	defaultBranch = main
 [pull]
@@ -8,7 +8,7 @@
 [credential]
 	helper = store
 [github]
-	user = spirit-x64
+	user = cyber-amr
 
 [alias]
 	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
