@@ -1,6 +1,7 @@
 set relativenumber
 set ruler
 set laststatus=2
+set cursorline
 
 filetype plugin indent on
 if has("syntax")
