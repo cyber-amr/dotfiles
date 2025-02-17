@@ -1,6 +1,7 @@
 set relativenumber
 set ruler
 set laststatus=2
+set expandtab
 set cursorline
 
 filetype plugin indent on
