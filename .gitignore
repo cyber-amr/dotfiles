@@ -4,6 +4,7 @@
 # except
 !.gitignore
 !.bashrc
+!.bash_profile
 !.bash_aliases
 !.gitconfig
 !.vimrc
