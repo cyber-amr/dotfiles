@@ -19,7 +19,7 @@ alias fgrep='fgrep --color=auto'
 
 # File managment
 alias ..='cd ..'
-alias ...='cd ../../../'
+alias ...='cd ./../../'
 alias la='ls -A'
 alias ll='ls -la'
 alias l.='ls -d .*'
