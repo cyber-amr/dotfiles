@@ -39,6 +39,8 @@ alias commit='git commit -m'
 alias add='git add'
 alias pull='git pull --verbose'
 alias push='git push --verbose'
+alias gd='git diff'
+alias gds='git diff --staged'
 
 # Rust / Cargo
 alias cr='cargo run'
