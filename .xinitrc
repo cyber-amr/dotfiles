@@ -1,6 +1,10 @@
 #!/bin/bash
 
 setup_kb() {
+    if xset q | grep -q "Caps Lock: *on"; then
+        xdotool key Caps_Lock
+    fi
+
 	setxkbmap -layout us,ara,ru -option grp:win_space_toggle
     xmodmap ~/.Xmodmap
 }
