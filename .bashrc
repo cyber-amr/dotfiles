@@ -2,6 +2,8 @@
 
 export PATH=$PATH:$HOME/.local/bin
 
+source $HOME/.ssh-agent
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
