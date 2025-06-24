@@ -1,0 +1,31 @@
+[global]
+padding = 8
+frame_width = 2
+corner_radius = 4
+font = fixed 12
+offset = (10, 30)
+origin = bottom-right
+separator_height = 0
+transparency = 10
+horizontal_padding = 10
+icon_position = left
+markup = full
+enable_recursive_icon_lookup = true
+
+[urgency_low]
+timeout = 3
+background = "#0f0f11"
+foreground = "#d0d0d0"
+frame_color = "#1f1f2f"
+
+[urgency_normal]
+timeout = 5
+background = "#0f0f11"
+foreground = "#d0d0d0"
+frame_color = "#1f1f2f"
+
+[urgency_critical]
+timeout = 0
+background = "#0f0f11"
+foreground = "#1cacfc"
+frame_color = "#221144"

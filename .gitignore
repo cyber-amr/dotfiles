@@ -11,3 +11,7 @@
 !.vimrc
 !.xinitrc
 !.Xmodmap
+
+!.config/
+!.config/dunst/
+!.config/dunst/dunstrc
