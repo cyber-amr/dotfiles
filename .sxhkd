@@ -1,0 +1,35 @@
+super + a
+ st
+
+super + q
+ quit
+
+super + v
+ CM_DIR="$HOME/.cache/" clipmenu -b -p "Clipboard: "
+
+super + w
+ tartarus
+
+super + e
+ xfe
+
+super + b
+ brave
+
+super + c
+ code-oss
+
+super + g
+ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia godot
+
+super + j
+ st -e julia
+
+super + s
+ maim -os | tee $HOME/Pictures/$(date +%s).png | xclip -selection clipboard -t image/png
+
+super + shift + s
+ maim -o | tee $HOME/Pictures/$(date +%s).png | xclip -selection clipboard -t image/png
+
+super + t
+ notify-send --replace-id=1112 $(get_temp)

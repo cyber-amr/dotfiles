@@ -8,6 +8,7 @@
 !.bash_aliases
 !.gitconfig
 !.ssh-agent
+!.sxhkd
 !.vimrc
 !.xinitrc
 !.Xmodmap
