@@ -4,6 +4,7 @@ frame_width = 2
 corner_radius = 4
 font = fixed 12
 offset = (10, 30)
+width = 400
 origin = bottom-right
 separator_height = 0
 transparency = 10
