@@ -32,4 +32,4 @@ super + shift + s
  maim -o | tee $HOME/Pictures/$(date +%s).png | xclip -selection clipboard -t image/png
 
 super + t
- notify-send --replace-id=1112 $(get_temp)
+ notify-send --replace-id=1112 "Temp: $(get_temp)"
