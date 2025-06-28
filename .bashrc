@@ -1,6 +1,6 @@
 # .bashrc
 
-export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:$HOME/.local/bin:$HOME/.cargo/bin
 
 source $HOME/.ssh-agent
 
