@@ -33,3 +33,6 @@ super + shift + s
 
 super + t
  notify-send --replace-id=1112 "Temp: $(get_temp)"
+
+super + d
+ notify-send --replace-id=1113 "Battery Capacity: $(battery_cap.sh)"
