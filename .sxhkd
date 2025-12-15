@@ -2,7 +2,7 @@ super + a
  st
 
 super + q
- quit
+ quit.sh
 
 super + v
  CM_DIR="$HOME/.cache/" clipmenu -b -p "Clipboard: "
