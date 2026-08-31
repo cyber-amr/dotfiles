@@ -56,6 +56,3 @@ alias jopt='julia --optimize=3 --check-bounds=no --math-mode=fast --threads auto
 
 # Python
 alias py='python'
-
-# SSH for AWS server
-alias aws='doas ssh -i /path/to/key-file.pem ec2-user@ec2-000-000-000-000.compute-1.amazonaws.com'
