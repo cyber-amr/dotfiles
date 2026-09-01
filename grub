@@ -1,0 +1,14 @@
+#
+# Configuration file for GRUB.
+#
+
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=0
+GRUB_DISTRIBUTOR="Void"
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=4 console=tty0 console=ttyS0,115200n8 printk.time=1 spec_store_bypass_disable=off"
+
+GRUB_TERMINAL_INPUT="console"
+GRUB_TERMINAL_OUTPUT=console
+
+#GRUB_DISABLE_LINUX_UUID=true
+GRUB_DISABLE_RECOVERY=true
